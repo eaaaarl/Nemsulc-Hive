@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities: "off" */
 import React from "react";
 import {
   AlertDialog,
