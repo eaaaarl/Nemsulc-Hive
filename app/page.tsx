@@ -57,7 +57,7 @@ export default function Dashboard() {
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
                   <Package2 className="h-6 w-6" />
-                  <span className="">NSTPortal</span>
+                  <span className="">NEMSU Hive</span>
                 </Link>
                 <Link
                   href="#"
@@ -68,27 +68,17 @@ export default function Dashboard() {
                 </Link>
                 <Link
                   href="#"
-                  className="mx-[-0.65rem] flex items-center gap-4 rounded-xl bg-muted px-3 py-2 text-foreground hover:text-foreground"
-                >
-                  <ShoppingCart className="h-5 w-5" />
-                  Orders
-                  <Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
-                    6
-                  </Badge>
-                </Link>
-                <Link
-                  href="#"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Package className="h-5 w-5" />
-                  Products
+                  Reports
                 </Link>
                 <Link
                   href="#"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Users className="h-5 w-5" />
-                  Customers
+                  Users
                 </Link>
                 <Link
                   href="#"
@@ -132,7 +122,7 @@ export default function Dashboard() {
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
           <div className="flex items-center">
-            <h1 className="text-lg font-semibold md:text-2xl">Inventory</h1>
+            <h1 className="text-lg font-semibold md:text-2xl">Development</h1>
           </div>
           <div
             className="flex flex-1 items-center justify-center rounded-lg border border-dashed shadow-sm"
@@ -140,10 +130,10 @@ export default function Dashboard() {
           >
             <div className="flex flex-col items-center gap-1 text-center">
               <h3 className="text-2xl font-bold tracking-tight">
-                You have no products
+                No Modules Created
               </h3>
               <p className="text-sm text-muted-foreground">
-                You can start selling as soon as you add a product.
+                You can start developing as soon as you add a module.
               </p>
               <Button onClick={handleOpenModal}>Click Me!</Button>
             </div>

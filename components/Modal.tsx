@@ -23,12 +23,7 @@ function Modal({ isOpen, onClose }: ModalProps) {
         <AlertDialogHeader>
           <AlertDialogTitle>System Fundamentals!</AlertDialogTitle>
           <AlertDialogDescription>
-            {`I'm Earl Dominic Ado, and I'll be guiding you through the basics of
-System Fundamentals. This course covers key topics such as operating
-systems, computer architecture, and system programming. You'll gain
-a solid foundation in understanding how computers work at a
-fundamental level, including how different components interact
-within a system.`}
+            {`I'm Earl Dominic Ado, a freelance full-stack developer, and I'll be guiding you through the essentials of modern web development. This course will cover key topics such as front-end and back-end technologies, database management, and system integration. You'll gain a comprehensive understanding of how to build and maintain web applications, including how to seamlessly connect different components and technologies to create robust, dynamic solutions.`}
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
